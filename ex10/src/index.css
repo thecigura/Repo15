@@ -1,0 +1,116 @@
+/*Step #1*/
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+/*Step #2* - header styling */
+header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+#nav_bar {
+    float: right;
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 9px;
+  }
+
+  #nav_bar #sign_in {
+    background: #4887ef; 
+    margin-right: 24px;
+    padding: 8px 15px;
+    border-radius: 2px; 
+    font-weight: bold;
+  }
+
+  .nav-links {
+    color: #1A73E8;
+  }
+
+  #gmail {
+
+  }
+    #images {
+
+    }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  li.nav-links a:hover {
+    text-decoration: underline;
+  }
+
+  #sign_in {
+    color: #fff;
+  }
+
+/*--Step #3 - google logo */
+.clearfix {
+    overflow: auto;
+}
+
+.google-image #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+  }
+
+/*--Step #4 - google form search */
+
+#form-search { 
+    margin: auto;
+    width: 460px;
+    line-height: 20px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    align-items: center;
+  }
+
+  #form {
+    text-align: center;
+    align-items: center;
+  }
+
+/*--Step #4 - google buttons */
+  .buttons {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 300px;
+  }
+
+/*--Step #6 - google footer area */
+footer  {
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+  footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 13px;
+    padding: 13px;
+  }
+
+  footer ul {
+    float: left;
+  }
+
+  .footer-right {
+    float: right;
+  }
